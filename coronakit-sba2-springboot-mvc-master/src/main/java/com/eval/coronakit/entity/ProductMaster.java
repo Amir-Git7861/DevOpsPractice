@@ -20,7 +20,7 @@ public class ProductMaster {
 	@Size(min=2, message="Product Name must be more than 2 character")
 	private String productName;
 	
-	@NotNull(message="Product cos is required")
+	@NotNull(message="Product cost is required")
 	@Min(value=10,message="Product cost can not be less than 10")
 	private Integer cost;
 	

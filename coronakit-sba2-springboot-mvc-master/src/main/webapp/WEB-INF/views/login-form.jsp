@@ -32,6 +32,8 @@
 	</core:if>
 
 	<spring-form:form action="${pageContext.request.contextPath}/validate" method="POST">
+		
+		<!-- 
 		<br />
 		<br />
 		<label>User Name</label>
@@ -42,7 +44,16 @@
 		<input type="password" name="password" required="required"/>
 		<br />
 		<br />
-		<input type="submit" value="Login" />
+		<input type="submit" value="Login" /> -->
+		
+		<hr />
+		<br />
+		<br />
+		<label>UserName: <input type="text" name="username" required="required"/></label>
+				<label>Password: <input type="password" name="password" required="required"/></label>
+				<button type="submit" value="Login">Sign In</button>
+			
+		
 	</spring-form:form>
 	<core:if test="${param.logout != null}">
 		<i>You have been logged out successfully!!!</i>

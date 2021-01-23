@@ -9,7 +9,9 @@
 <body>
 <jsp:include page="${pageContext.request.contextPath}/header" />
 <hr />
+<br />
 	<a href="${pageContext.request.contextPath}/user/show-kit">Show Kit</a>
+	<span>  |  </span>
 	<a href="${pageContext.request.contextPath}/user/show-list">List Product</a>
 </body>
 </html>

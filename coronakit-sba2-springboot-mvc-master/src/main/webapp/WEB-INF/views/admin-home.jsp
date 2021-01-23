@@ -18,7 +18,8 @@
 <jsp:include page="${pageContext.request.contextPath}/header" />
 	<hr />
 	<a href="${pageContext.request.contextPath}/admin/product-list">List
-		Product</a>
+		Product</a> 
+		<span>  |  </span>
 	<a href="${pageContext.request.contextPath}/admin/product-entry">Add
 		Product</a>
 </body>

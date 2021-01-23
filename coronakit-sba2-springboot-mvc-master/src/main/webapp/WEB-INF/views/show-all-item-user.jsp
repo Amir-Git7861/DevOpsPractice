@@ -59,10 +59,11 @@
 					</c:forEach>
 				</table>
 				<input type="submit" class="btn btn-sm btn-danger" value="CHECKOUT"/>
+				<a class="btn btn-sm btn-danger" href="${pageContext.request.contextPath}/custom-login">LOGOUT</a>
 				</form>
 			</c:otherwise>
 		</c:choose>
-		<a class="btn btn-sm btn-danger" href="${pageContext.request.contextPath}/custom-login">LOGOUT</a>
+		
 	</section>
 </body>
 </html>
